@@ -1,0 +1,29 @@
+{
+  "files.exclude": {
+    ".swc": true,
+    ".next": true,
+    // ".vscode": true,
+    ".gitlab": true,
+    "node_modules": true,
+    ".eslintrc.js": true,
+    "tsconfig.json": true,
+    "next-env.d.ts": true,
+    "package-lock.json": true,
+  },
+  "search.exclude": {
+    ".swc": true,
+    ".next": true,
+    ".vscode": true,
+    ".gitlab": true,
+    "public": true,
+    "node_modules": true,
+    ".eslintrc.js": true,
+    "tsconfig.json": true,
+    "next-env.d.ts": true,
+    "package-lock.json": true,
+    "README.md": true,
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+}
